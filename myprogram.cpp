@@ -1,10 +1,11 @@
 #include <QApplication>
-#include <QPushButton>
-#include "calculatormainwindow.h"
+//#include <QPushButton>
+#include "classCalculator.h"
 #include "./ui_calculator.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
+    //CalculatorMainWindow window(nullptr);
     CalculatorMainWindow window(nullptr);
     Ui::MainWindow action;
     action.setupUi(&window);

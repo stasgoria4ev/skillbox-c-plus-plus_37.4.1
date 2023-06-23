@@ -14,7 +14,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(skillbox_c_plus_plus_37 myprogram.cpp calculator.ui calculatormainwindow.h)
+add_executable(skillbox_c_plus_plus_37 myprogram.cpp calculator.ui classCalculator.cpp classCalculator.h)
 target_link_libraries(skillbox_c_plus_plus_37
         Qt5::Core
         Qt5::Gui
